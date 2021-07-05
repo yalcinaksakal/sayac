@@ -1,0 +1,53 @@
+.ekran {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  width: 80%;
+  max-width: 400px;
+  height: 100px;
+  background: whitesmoke;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  color: dodgerblue;
+  font-size: 5rem;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.tuslar {
+  position: fixed;
+  top: calc(30% + 100px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 2rem;
+  margin: 20px;
+  color: white;
+  background: black;
+  opacity: 0.5;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.eksi {
+  background: red;
+}
+
+.arti {
+  background: limegreen;
+}
